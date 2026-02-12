@@ -29,7 +29,7 @@ def get_battery_percentage():
 
 #Controls the speeds of both motors
 def set_motor_drives(left_motor, right_motor):
-	if abs(left_motor) <= 1 or abs(right_motor) <=1:
+	if abs(left_motor) <= 1 and abs(right_motor) <=1:
 		pass
 		#[IMPLEMENT CODE]: Set the speed of the left motor, 1 = max speed forward, -1 = max speed reverse
 		#[IMPLEMENT CODE]: Set the speed of the right motor, 1 = max speed forward, -1 = max speed reverse
@@ -67,4 +67,5 @@ elif get_is_garbage_detected(): #If floating garabge is detected
 
 	#[IMPLEMENT CODE]: Move robot forward one meter to ensure collection
 else:
+
 	pass #[IMPLEMENT CODE]: Continue to search for garbage

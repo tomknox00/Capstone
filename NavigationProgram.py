@@ -1,9 +1,9 @@
 """
 +---------------------------------------------------+
-| Insert titile block text here
-|
-|
-|
+| Code for steering the drone towards garabge       |
+| Replace unimplemented functions with calls        |
+| to the garabge detection and motor drive.         |
+|                                                   |
 +---------------------------------------------------+
 """
 
@@ -43,7 +43,7 @@ def set_motor_drives(left_motor, right_motor):
 +-----------------------------+
 """
 
-if get_battery_percentage <= 50: #If battery is low, return to port
+if get_battery_percentage() <= 50: #If battery is low, return to port
 	pass #[IMPLEMENT CODE]: Order the robot to return to base
 
 elif get_is_garbage_detected(): #If floating garabge is detected
@@ -69,3 +69,4 @@ elif get_is_garbage_detected(): #If floating garabge is detected
 else:
 
 	pass #[IMPLEMENT CODE]: Continue to search for garbage
+

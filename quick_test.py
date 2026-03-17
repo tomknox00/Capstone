@@ -1,5 +1,5 @@
 import definition_inference as vision
-import find_distance_angle as logic
+import NavigationProgram as logic
 import supervision as sv
 import cv2
 

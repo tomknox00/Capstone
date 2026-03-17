@@ -30,7 +30,7 @@ DIST_K = 140986        # Constant for Pi camera module 2 @ 640px
 """
 
 # Initialize Model
-model = get_model(model_id="plastic-waste-qczkq-j50af/3", api_key="PDKnJ4wyaAh33RmSnCtg")
+model = get_model(model_id="plastic-waste-qczkq-j50af/3", api_key="")
 
 #--------------------------------------------Functions-------------------------------------------------
 
